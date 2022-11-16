@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/tvProdavnica"
+        android:textSize="30dp" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAdresa"
+        android:textSize="18dp"
+        android:paddingBottom="20dp" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRacun"
+        android:textSize="20dp" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvProsek"
+        android:textSize="20dp" />
+    <Button
+        android:text="SVI RACUNI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSviRacuni" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1" >
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:id="@+id/editText1"
+            android:hint="Iznos" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2" >
+            <Button
+                android:text="RACUNI JEFTINIJI OD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnJeftinijiRacun" />
+            <Button
+                android:text="RACUNI SKUPLJI OD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSkupljiRacun" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:text="NAJJEFTINIJI RACUN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNajjeftiniji" />
+    <Button
+        android:text="NAJSKUPLJI RACUN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNajskupji" />
+
+</LinearLayout>
